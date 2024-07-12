@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador y Desencriptador</h1>
+        <textarea id="inputText" placeholder="Escribe el texto aquí..."></textarea>
+        <input type="number" id="shift" placeholder="Desplazamiento" min="1" max="25">
+        <button onclick="encrypt()">Encriptar</button>
+        <button onclick="decrypt()">Desencriptar</button>
+        <textarea id="outputText" readonly placeholder="El resultado aparecerá aquí..."></textarea>
+    </div>
+    <script src="logica.js"></script>
+</body>
+</html>
